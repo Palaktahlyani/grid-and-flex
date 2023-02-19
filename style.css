@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkh: #982642;
+}
+
+.container {
+  border: 1px solid red;
+  background-color: pink;
+  height: 300px;
+  width: 300px;
+}
+
+.box {
+  border: 2px solid green;
+  background-color: aqua;
+  /* --darkh: #982642; */
+  color: var(--darkh);
+}

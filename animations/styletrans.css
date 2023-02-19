@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  height: 500px;
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+.box {
+  height: 212px;
+  width: 212px;
+  border: 2px solid green;
+  background-color: aqua;
+
+  animation: palak 3s ease-in 1s 4 normal;
+}
+
+/* @keyframes palak {
+  from {
+    width: 212px;
+  }
+  to {
+    width: 800px;
+  }
+} */
+
+@keyframes palak {
+  0% {
+    width: 212px;
+    background-color: pink;
+  }
+  30% {
+    width: 35%;
+    background-color: orange;
+  }
+
+  65% {
+    width: 70%;
+    background-color: purple;
+  }
+
+  100% {
+    width: 100%;
+    background-color: beige;
+  }
+}
